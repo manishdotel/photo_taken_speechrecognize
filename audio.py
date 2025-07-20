@@ -77,8 +77,8 @@ def SnapShot():
             break
 
     # Clean up
-    #camera_snapshot.release()
-    #cv2.destroyAllWindows()
+    camera_snapshot.release()
+    cv2.destroyAllWindows()
 
 if __name__ == '__main__':
     SnapShot()
